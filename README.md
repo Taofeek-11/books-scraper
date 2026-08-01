@@ -1,7 +1,7 @@
 # 📚 Books E-Commerce Scraper
 
 ## Overview
-A Selenium web scraper that extracts 1000 books 
+A Selenium web scraper that extracts 1000 books
 from books.toscrape.com across 50 pages.
 
 ## Tools Used
@@ -29,15 +29,9 @@ pip install -r requirements.txt
 3. Run the scraper:
 python scraper.py
 
-## Output
-- Scraped_books.csv — raw scraped data
-- Scraped_books_clean.csv — cleaned dataset
-
 ## Project Structure
 books-scraper/
 ├── scraper.py
 ├── requirements.txt
 ├── README.md
-└── data/
-    ├── Scraped_books.csv
-    └── Scraped_books_clean.csv
+└── Scraped_books.csv
